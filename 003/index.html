@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sneakers </title>~
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+
+    <header class="main-header">
+        <div class="logo">
+            <h1>SNEAKERS</h1>
+        </div>
+        <nav class="main-nav">
+            <ul>
+                <li><a href="#">Lançamentos</a></li>
+                <li><a href="#">Masculino</a></li>
+                <li><a href="#">Feminino</a></li>
+                <li><a href="#">Marcas</a></li>
+                <li><a href="#">Outlet</a></li>
+            </ul>
+        </nav>
+        <div class="header-icons">
+            <div class="search-bar">
+                <input type="text" placeholder="O que você procura?">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <a href="#" aria-label="Minha Conta"><i class="fa-regular fa-user"></i></a>
+             <a href="#" id="cart-link" aria-label="Carrinho">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span id="cart-count">0</span>
+</a>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero-section">
+            <img src="asset/feet-1840619_1280.jpg" alt="Banner principal da coleção">
+        </section>
+
+        <section class="products-section">
+            <h2>Lançamentos Imperdíveis</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="asset/footwear-5408643_1280.jpg" alt="Tênis Modelo A">
+                    <h3 class="product-title">Tênis Nike Air Force</h3>
+                    <p class="product-category">Casual</p>
+                    <p class="product-price">R$ 799,99</p>
+                    <button class="buy-button">Comprar</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="asset/running-shoe-371624_1280.jpg" alt="Tênis Modelo B">
+                    <h3 class="product-title">Tênis Adidas Forum</h3>
+                    <p class="product-category">Skate</p>
+                    <p class="product-price">R$ 649,99</p>
+                    <button class="buy-button">Comprar</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="asset/running-shoe-371625_1280.jpg" alt="Tênis Modelo C">
+                    <h3 class="product-title">Tênis Puma Suede</h3>
+                    <p class="product-category">Clássico</p>
+                    <p class="product-price">R$ 499,99</p>
+                    <button class="buy-button">Comprar</button>
+                </div>
+
+                <div class="product-card">
+                    <img src="asset/sneaker-2768760_1280.jpg" alt="Tênis Modelo D">
+                    <h3 class="product-title">Vans Old Skool</h3>
+                    <p class="product-category">Skate</p>
+                    <p class="product-price">R$ 399,99</p>
+                    <button class="buy-button">Comprar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>Institucional</h4>
+                <ul>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Nossas Lojas</a></li>
+                    <li><a href="#">Trabalhe Conosco</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Ajuda</h4>
+                <ul>
+                    <li><a href="#">Dúvidas Frequentes</a></li>
+                    <li><a href="#">Política de Entrega</a></li>
+                    <li><a href="#">Trocas e Devoluções</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h4>Siga-nos</h4>
+                <div class="social-icons">
+                    <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 SNEAKERS. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <div id="image-modal" class="modal">
+        <span class="close-button">&times;</span>
+        <img class="modal-content" id="modal-image">
+    </div>
+    
+    <script src="script.js" defer></script>
+</body>
+</html>
